@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../CivicPlusChallengeTests/CivicPlusChallenge.Tests.csproj" Id="8e40fe76-f1a9-4485-b61d-35eee173aecc" />
+  <Project Path="CivicPlusChallenge.csproj" />
+</Solution>

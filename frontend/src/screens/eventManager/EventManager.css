@@ -1,0 +1,13 @@
+.event-card {
+  height: 200px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.event-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
