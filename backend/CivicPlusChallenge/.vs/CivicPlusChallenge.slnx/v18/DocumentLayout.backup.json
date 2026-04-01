@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\endpoints\\createeventendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:endpoints\\createeventendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\endpoints\\geteventsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:endpoints\\geteventsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\endpoints\\createeventendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:endpoints\\createeventendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\endpointextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\models\\geteventresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:models\\geteventresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,10 +68,6 @@
       "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\source\\repos\\civicpluschallenge\\models\\saveeventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:models\\saveeventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -106,37 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
-              "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
-              "RelativeToolTip": "..\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T20:01:26.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Models\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Models\\ApiResponse.cs",
-              "RelativeToolTip": "Models\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T18:33:35.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\ApiClient.cs",
               "RelativeDocumentMoniker": "ApiClient.cs",
@@ -149,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AuthenticationHandler.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\AuthenticationHandler.cs",
               "RelativeDocumentMoniker": "Services\\AuthenticationHandler.cs",
@@ -162,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GetEventResponse.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Models\\GetEventResponse.cs",
               "RelativeDocumentMoniker": "Models\\GetEventResponse.cs",
@@ -175,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EndpointExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\EndpointExtensions.cs",
               "RelativeDocumentMoniker": "EndpointExtensions.cs",
@@ -188,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Models\\Event.cs",
               "RelativeDocumentMoniker": "Models\\Event.cs",
@@ -207,7 +181,7 @@
               "RelativeDocumentMoniker": "Endpoints\\GetEventsEndpoint.cs",
               "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Endpoints\\GetEventsEndpoint.cs",
               "RelativeToolTip": "Endpoints\\GetEventsEndpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T12:43:29.748Z",
               "EditorCaption": ""
@@ -215,19 +189,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\EventService.cs",
+              "RelativeToolTip": "Services\\EventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:44:06.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreateEventEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Endpoints\\CreateEventEndpoint.cs",
               "RelativeDocumentMoniker": "Endpoints\\CreateEventEndpoint.cs",
               "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Endpoints\\CreateEventEndpoint.cs",
               "RelativeToolTip": "Endpoints\\CreateEventEndpoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T18:11:36.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CivicPlusChallenge",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
               "RelativeDocumentMoniker": "CivicPlusChallenge.csproj",
@@ -240,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -253,20 +240,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IEventService.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\IEventService.cs",
               "RelativeDocumentMoniker": "Services\\IEventService.cs",
               "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\IEventService.cs",
               "RelativeToolTip": "Services\\IEventService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T16:48:10.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:33:35.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "RelativeToolTip": "..\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T20:01:26.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -280,19 +293,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\EventService.cs",
-              "RelativeDocumentMoniker": "Services\\EventService.cs",
-              "ToolTip": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\EventService.cs",
-              "RelativeToolTip": "Services\\EventService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:44:06.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
@@ -304,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ApiClientTests.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\ApiClientTests.cs",
               "RelativeDocumentMoniker": "..\\CivicPlusChallengeTests\\ApiClientTests.cs",
@@ -316,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TokenServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\Services\\TokenServiceTests.cs",
               "RelativeDocumentMoniker": "..\\CivicPlusChallengeTests\\Services\\TokenServiceTests.cs",

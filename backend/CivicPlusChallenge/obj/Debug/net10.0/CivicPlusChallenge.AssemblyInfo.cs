@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CivicPlusChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e578c0265989dfe4ee376c89f3ba54d1c4b588a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CivicPlusChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CivicPlusChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

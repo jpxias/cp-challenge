@@ -578,11 +578,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
+      "projectUniqueName": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
       "projectName": "CivicPlusChallenge",
-      "projectPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
+      "projectPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
       "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\obj\\",
+      "outputPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

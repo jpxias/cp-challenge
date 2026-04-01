@@ -1,24 +1,24 @@
 import SearchIcon from "@mui/icons-material/Search";
-import { Button, IconButton, TextField } from "@mui/material";
+import { Button, List, TextField } from "@mui/material";
 import { useEffect, useMemo, useState } from "react";
 import CreateEventModal from "../../components/CreateEventModal/CreateEventModal.component";
-import EventCard from "../../components/EventCard/EventCard.component";
+import EventListItem from "../../components/EventListItem/EventListItem.component";
 import TopBar from "../../components/TopBar/TopBar";
-import "./EventManager.css";
 import { Event } from "../../models";
 import { useGetEvents } from "../../api/get-events-endpoint/get-events-endpoint";
 import debounce from "lodash/debounce";
 
 const EventManagerScreen = () => {
-  // const [events, setEvents] = useState<Event[]>([]);
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
   const [viewOnly, setViewOnly] = useState<boolean>(false);
   const [filter, setFilter] = useState<string>();
   const { data, refetch } = useGetEvents({
-    $filter: `contains(title, '${filter}') or contains(description, '${filter}')`,
+    $filter: filter
+      ? `contains(title, '${filter}') or contains(description, '${filter}')`
+      : undefined,
   });
-  console.log(data);
+
   const events = data?.data.data?.items;
   const editEvent = (event: Event | null) => {
     setViewOnly(false);
@@ -88,17 +88,11 @@ const EventManagerScreen = () => {
           </Button>
         </div>
 
-        <div className="event-cards-container">
+        <List sx={{ width: "100%", bgcolor: "background.paper" }}>
           {events?.map((event) => (
-            <EventCard
-              key={event.id}
-              event={event}
-              onClickDelete={() => {}}
-              onClickCard={viewEvent}
-              onClickEdit={editEvent}
-            />
+            <EventListItem key={event.id} event={event} onClick={viewEvent} />
           ))}
-        </div>
+        </List>
       </div>
     </>
   );

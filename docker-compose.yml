@@ -1,0 +1,14 @@
+services:
+  api:
+    build:
+      context: ./backend
+    ports:
+      - "7190:8080" # Maps localhost:7001 to container:8080
+
+  web:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:80" # Maps localhost:5173 to Nginx port 80
+    depends_on:
+      - api

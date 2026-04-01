@@ -1,0 +1,15 @@
+[Bb]in/
+[Ob]j/
+out/
+publish/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.user
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.dockerignore

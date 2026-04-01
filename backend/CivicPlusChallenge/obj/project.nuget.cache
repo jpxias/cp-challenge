@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9tEKMMP4Ak=",
+  "dgSpecHash": "rsSmatHlu64=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
+  "projectFilePath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joao\\.nuget\\packages\\castle.core\\5.2.1\\castle.core.5.2.1.nupkg.sha512",
     "C:\\Users\\Joao\\.nuget\\packages\\fakeiteasy\\9.0.1\\fakeiteasy.9.0.1.nupkg.sha512",

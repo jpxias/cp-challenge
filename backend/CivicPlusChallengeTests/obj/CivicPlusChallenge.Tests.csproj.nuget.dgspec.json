@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj": {}
+    "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj": {
+    "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj",
         "projectName": "CivicPlusChallenge.Tests",
-        "projectPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj",
+        "projectPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj",
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\obj\\",
+        "outputPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj": {
-                "projectPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj"
+              "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj"
               }
             }
           }
@@ -354,14 +354,14 @@
         }
       }
     },
-    "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj": {
+    "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
         "projectName": "CivicPlusChallenge",
-        "projectPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
+        "projectPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallenge\\obj\\",
+        "outputPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
