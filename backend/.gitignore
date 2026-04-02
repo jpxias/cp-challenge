@@ -1,5 +1,5 @@
-[Bb]in/
-[Ob]j/
+*obj/
+*bin/
 out/
 publish/
 .vs/
