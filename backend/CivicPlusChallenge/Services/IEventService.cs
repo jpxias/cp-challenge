@@ -6,6 +6,6 @@ namespace CivicPlusChallenge.Services
     public interface IEventService
     {
         Task<ApiResponse<GetEventResponse>> GetEvents(GetEventParameters query);
-        Task<ApiResponse<Event>> CreateEvent(SaveEventRequest newEvent);
+        Task<ApiResponse<Event>> CreateEvent(Event newEvent);
     }
 }

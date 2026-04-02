@@ -26,9 +26,9 @@ namespace CivicPlusChallenge.Services
             return await _apiClient.GetAsync<GetEventResponse>(urlWithQuery);
         }
 
-        public async Task<ApiResponse<Event>> CreateEvent(SaveEventRequest newEvent)
+        public async Task<ApiResponse<Event>> CreateEvent(Event newEvent)
         {
-            return await _apiClient.PostAsync<SaveEventRequest, Event>("Events", newEvent);
+            return await _apiClient.PostAsync<Event, Event>("Events", newEvent);
         }
     }
 }

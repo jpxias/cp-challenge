@@ -17,13 +17,7 @@ namespace CivicPlusChallenge.Endpoints
         {
             try
             {
-                var response = await eventService.CreateEvent(new SaveEventRequest()
-                {
-                    Title = newEvent.Title,
-                    Description = newEvent.Description,
-                    StartDate = newEvent.StartDate.ToString("yyyy-MM-ddTHH:mm:ssZ"),
-                    EndDate = newEvent.EndDate.ToString("yyyy-MM-ddTHH:mm:ssZ"),
-                });
+                var response = await eventService.CreateEvent(newEvent);
 
                 if (!response.IsSuccess)
                 {

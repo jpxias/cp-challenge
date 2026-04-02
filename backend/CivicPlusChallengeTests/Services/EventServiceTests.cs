@@ -52,10 +52,10 @@ namespace CivicPlusChallenge.Tests.Services
         public async Task CreateEvent_ShouldForwardRequestToClient()
         {
             // Arrange
-            var newEvent = new SaveEventRequest { Title = "Event Test" };
+            var newEvent = new Event { Title = "Event Test" };
             var apiResponse = new ApiResponse<Event> { StatusCode = 201 };
 
-            A.CallTo(() => _apiClient.PostAsync<SaveEventRequest, Event>("Events", newEvent, true))
+            A.CallTo(() => _apiClient.PostAsync<Event, Event>("Events", newEvent, true))
                 .Returns(apiResponse);
 
             // Act
@@ -63,7 +63,7 @@ namespace CivicPlusChallenge.Tests.Services
 
             // Assert
             Assert.AreEqual(201, result.StatusCode);
-            A.CallTo(() => _apiClient.PostAsync<SaveEventRequest, Event>("Events", newEvent, true))
+            A.CallTo(() => _apiClient.PostAsync<Event, Event>("Events", newEvent, true))
                 .MustHaveHappenedOnceExactly();
         }
 
