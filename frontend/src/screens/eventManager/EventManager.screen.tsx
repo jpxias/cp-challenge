@@ -1,5 +1,5 @@
 import SearchIcon from "@mui/icons-material/Search";
-import { Button, List, TextField } from "@mui/material";
+import { Button, List, Skeleton, Stack, TextField } from "@mui/material";
 import { useEffect, useMemo, useState } from "react";
 import CreateEventModal from "../../components/CreateEventModal/CreateEventModal.component";
 import EventListItem from "../../components/EventListItem/EventListItem.component";
@@ -7,13 +7,14 @@ import TopBar from "../../components/TopBar/TopBar";
 import { Event } from "../../models";
 import { useGetEvents } from "../../api/get-events-endpoint/get-events-endpoint";
 import debounce from "lodash/debounce";
+import LoadingSkeleton from "../../components/LoadingSkeleton/LoadingSekeleton.component";
 
 const EventManagerScreen = () => {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
   const [viewOnly, setViewOnly] = useState<boolean>(false);
   const [filter, setFilter] = useState<string>();
-  const { data, refetch } = useGetEvents({
+  const { data, refetch, isLoading } = useGetEvents({
     $filter: filter
       ? `contains(title, '${filter}') or contains(description, '${filter}')`
       : undefined,
@@ -88,11 +89,15 @@ const EventManagerScreen = () => {
           </Button>
         </div>
 
-        <List sx={{ width: "100%", bgcolor: "background.paper" }}>
-          {events?.map((event) => (
-            <EventListItem key={event.id} event={event} onClick={viewEvent} />
-          ))}
-        </List>
+        {isLoading ? (
+          <LoadingSkeleton />
+        ) : (
+          <List sx={{ width: "100%", bgcolor: "background.paper" }}>
+            {events?.map((event) => (
+              <EventListItem key={event.id} event={event} onClick={viewEvent} />
+            ))}
+          </List>
+        )}
       </div>
     </>
   );

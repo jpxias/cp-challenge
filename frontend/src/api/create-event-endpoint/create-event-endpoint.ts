@@ -28,12 +28,19 @@ export type postEventsResponse200 = {
   status: 200
 }
 
+export type postEventsResponse500 = {
+  data: EventApiResponse
+  status: 500
+}
+
 export type postEventsResponseSuccess = (postEventsResponse200) & {
   headers: Headers;
 };
-;
+export type postEventsResponseError = (postEventsResponse500) & {
+  headers: Headers;
+};
 
-export type postEventsResponse = (postEventsResponseSuccess)
+export type postEventsResponse = (postEventsResponseSuccess | postEventsResponseError)
 
 export const getPostEventsUrl = () => {
 
@@ -64,7 +71,7 @@ export const postEvents = async (event: Event, options?: RequestInit): Promise<p
 
 
 
-export const getPostEventsMutationOptions = <TError = unknown,
+export const getPostEventsMutationOptions = <TError = EventApiResponse,
     TContext = unknown>(options?: { mutation?:UseMutationOptions<Awaited<ReturnType<typeof postEvents>>, TError,{data: Event}, TContext>, fetch?: RequestInit}
 ): UseMutationOptions<Awaited<ReturnType<typeof postEvents>>, TError,{data: Event}, TContext> => {
 
@@ -93,9 +100,9 @@ const {mutation: mutationOptions, fetch: fetchOptions} = options ?
 
     export type PostEventsMutationResult = NonNullable<Awaited<ReturnType<typeof postEvents>>>
     export type PostEventsMutationBody = Event
-    export type PostEventsMutationError = unknown
+    export type PostEventsMutationError = EventApiResponse
 
-    export const usePostEvents = <TError = unknown,
+    export const usePostEvents = <TError = EventApiResponse,
     TContext = unknown>(options?: { mutation?:UseMutationOptions<Awaited<ReturnType<typeof postEvents>>, TError,{data: Event}, TContext>, fetch?: RequestInit}
  , queryClient?: QueryClient): UseMutationResult<
         Awaited<ReturnType<typeof postEvents>>,

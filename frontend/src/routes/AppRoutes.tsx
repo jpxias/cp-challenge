@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import EventManagerScreen from "../screens/eventManager/EventManager.screen";
-import NotFoundScreen from "../screens/notFound/NotFound.screen";
+import EventManagerScreen from "../screens/EventManager/EventManager.screen";
+import NotFoundScreen from "../screens/NotFound/NotFound.screen";
 
 const AppRoutes = () => {
   return (

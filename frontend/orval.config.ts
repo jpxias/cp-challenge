@@ -1,6 +1,6 @@
 import { defineConfig } from "orval";
 const API_BASE_URL = "http://localhost:7190/api";
-const API_BASE_AWS = "";
+
 export default defineConfig({
   civicPlus: {
     output: {
