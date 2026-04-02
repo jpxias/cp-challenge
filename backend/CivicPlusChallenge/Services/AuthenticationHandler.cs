@@ -18,7 +18,7 @@ namespace CivicPlusChallenge.Services
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token?.Access_token);
             var response = await base.SendAsync(request, cancellationToken);
 
-            if (response.StatusCode != System.Net.HttpStatusCode.OK)
+            if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized || response.StatusCode == System.Net.HttpStatusCode.BadRequest)
             {
                 var newToken = await _tokenService.GetApiToken(forceRefresh: true);
 

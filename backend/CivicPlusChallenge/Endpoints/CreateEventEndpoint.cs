@@ -8,12 +8,12 @@ namespace CivicPlusChallenge.Endpoints
     {
         public void MapEndpoint(IEndpointRouteBuilder builder)
         {
-            builder.MapPost("Events", GetEvents)
+            builder.MapPost("Events", CreateEvent)
                 .Produces<ApiResponse<Event>>(StatusCodes.Status200OK)
                 .Produces<ApiResponse<Event>>(StatusCodes.Status500InternalServerError);
         }
 
-        private async Task<IResult> GetEvents(IEventService eventService, Event newEvent)
+        private async Task<IResult> CreateEvent(IEventService eventService, Event newEvent)
         {
             try
             {
