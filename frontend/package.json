@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "orval-container": "cross-env API_URL=http://localhost:5039/api npx orval",
     "orval": "npx orval --prettier",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -38,6 +39,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.7.0",
+    "cross-env": "^10.1.0",
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",

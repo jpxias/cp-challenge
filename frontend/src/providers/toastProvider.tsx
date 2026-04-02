@@ -1,9 +1,11 @@
 import React, { createContext, useContext, useState } from "react";
 import { Snackbar, Alert } from "@mui/material";
 
-const ToastContext = createContext({
-  showError: (message: string) => {},
-});
+interface ToastContextType {
+  showError: (message: string) => void;
+}
+
+const ToastContext = createContext<ToastContextType | undefined>(undefined);
 
 export const ToastProvider = ({ children }: { children: React.ReactNode }) => {
   const [open, setOpen] = useState(false);
@@ -14,20 +16,29 @@ export const ToastProvider = ({ children }: { children: React.ReactNode }) => {
     setOpen(true);
   };
 
+  const handleClose = () => setOpen(false);
+
   return (
     <ToastContext.Provider value={{ showError }}>
+      {children}
       <Snackbar
         open={open}
         autoHideDuration={6000}
-        onClose={() => setOpen(false)}
+        onClose={handleClose}
+        anchorOrigin={{ vertical: "bottom", horizontal: "right" }} // Good for UX
       >
-        <Alert severity="error" variant="filled" onClose={() => setOpen(false)}>
+        <Alert severity="error" variant="filled" onClose={handleClose}>
           {message}
         </Alert>
       </Snackbar>
-      {children}
     </ToastContext.Provider>
   );
 };
 
-export const useToast = () => useContext(ToastContext);
+export const useToast = () => {
+  const context = useContext(ToastContext);
+  if (!context) {
+    throw new Error("useToast must be used within a ToastProvider");
+  }
+  return context;
+};

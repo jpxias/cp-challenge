@@ -1,5 +1,5 @@
 import SearchIcon from "@mui/icons-material/Search";
-import { Button, List, Skeleton, Stack, TextField } from "@mui/material";
+import { Button, List, TextField } from "@mui/material";
 import { useEffect, useMemo, useState } from "react";
 import CreateEventModal from "../../components/CreateEventModal/CreateEventModal.component";
 import EventListItem from "../../components/EventListItem/EventListItem.component";

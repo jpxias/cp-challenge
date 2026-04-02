@@ -40,6 +40,8 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+app.UseRouting();
+
 app.UsePathBase("/api");
 
 app.UseCors();

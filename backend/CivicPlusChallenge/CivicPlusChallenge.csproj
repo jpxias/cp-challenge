@@ -20,6 +20,6 @@
 	    EnvironmentVariables="SWAGGER_UPDATE=1"
 	    WorkingDirectory="$(ProjectDir)" />
 
-	  <Exec Command="powershell -Command &quot;(Get-Content '$(ProjectDir)swagger.json') -replace ', Version.*PublicKeyToken=null', ' ' | Set-Content '$(ProjectDir)swagger.json'&quot;" />
+	  <Exec Command="powershell -Command &quot;(Get-Content '$(ProjectDir)swagger.json') -replace ', Version.*PublicKeyToken=null', ' ' | Set-Content '$(ProjectDir)..\..\frontend\swagger.json'&quot;" />	  
   </Target>
 </Project>
