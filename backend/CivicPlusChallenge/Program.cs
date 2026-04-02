@@ -16,7 +16,7 @@ builder.Services.Configure<EventsApiConfig>(options =>
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddScoped<IMemoryCache, MemoryCache>();
+builder.Services.AddSingleton<IMemoryCache, MemoryCache>();
 builder.Services.AddScoped<IApiClient, ApiClient>();
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
@@ -37,8 +37,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-
-
 var app = builder.Build();
 
 app.UseRouting();
@@ -53,7 +51,6 @@ app.MapAllEndpoints();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/openapi/v1.json", "CivicPlus Challenge API v1");

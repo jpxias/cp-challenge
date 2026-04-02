@@ -4,6 +4,7 @@ import userEvent from "@testing-library/user-event";
 import EventManagerScreen from "./EventManager.screen";
 import { useGetEvents } from "../../api/get-events-endpoint/get-events-endpoint";
 import "@testing-library/jest-dom/vitest";
+import { ToastProvider } from "../../providers/toastProvider";
 
 vi.mock("../../api/get-events-endpoint/get-events-endpoint", () => ({
   useGetEvents: vi.fn(),
@@ -14,7 +15,9 @@ vi.mock("../../components/CreateEventModal/CreateEventModal.component", () => ({
     open ? (
       <div data-testid="event-modal">
         <button onClick={handleClose}>Close</button>
-        <button onClick={handleSubmit}>Submit</button>
+        <button onClick={() => handleSubmit({ isSuccess: true })}>
+          Submit
+        </button>
       </div>
     ) : null,
 }));
@@ -37,13 +40,23 @@ describe("EventManagerScreen", () => {
   beforeEach(() => {
     vi.clearAllMocks();
     (useGetEvents as any).mockReturnValue({
-      data: { data: { data: { items: mockEvents } } },
+      data: {
+        data: { data: { items: mockEvents, isSuccess: true, total: 2 } },
+      },
       refetch: mockRefetch,
     });
   });
 
+  const renderComponent = () => {
+    render(
+      <ToastProvider>
+        <EventManagerScreen />
+      </ToastProvider>,
+    );
+  };
+
   test("renders the list of events correctly", () => {
-    render(<EventManagerScreen />);
+    renderComponent();
 
     const items = screen.getAllByTestId("event-item");
     expect(items).toHaveLength(2);
@@ -53,7 +66,7 @@ describe("EventManagerScreen", () => {
 
   test("opens the modal when 'New Event' is clicked", async () => {
     const user = userEvent.setup();
-    render(<EventManagerScreen />);
+    renderComponent();
 
     const newEventBtn = screen.getByRole("button", { name: /New event/i });
     await user.click(newEventBtn);
@@ -63,7 +76,7 @@ describe("EventManagerScreen", () => {
 
   test("triggers a filtered API call when searching (with debounce)", async () => {
     const user = userEvent.setup();
-    render(<EventManagerScreen />);
+    renderComponent();
 
     const searchInput = screen.getByRole("textbox");
     await user.type(searchInput, "Meeting");
@@ -84,7 +97,7 @@ describe("EventManagerScreen", () => {
 
   test("refetches data and closes modal on successful submit", async () => {
     const user = userEvent.setup();
-    render(<EventManagerScreen />);
+    renderComponent();
 
     await user.click(screen.getByRole("button", { name: /New event/i }));
 
@@ -97,7 +110,7 @@ describe("EventManagerScreen", () => {
 
   test("opens modal in view-only mode when an item is clicked", async () => {
     const user = userEvent.setup();
-    render(<EventManagerScreen />);
+    renderComponent();
 
     const firstItem = screen.getByText("Meeting A");
     await user.click(firstItem);

@@ -1,5 +1,5 @@
 import SearchIcon from "@mui/icons-material/Search";
-import { Button, List, TextField } from "@mui/material";
+import { Button, List, TablePagination, TextField } from "@mui/material";
 import { useEffect, useMemo, useState } from "react";
 import CreateEventModal from "../../components/CreateEventModal/CreateEventModal.component";
 import EventListItem from "../../components/EventListItem/EventListItem.component";
@@ -15,14 +15,19 @@ const EventManagerScreen = () => {
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
   const [viewOnly, setViewOnly] = useState<boolean>(false);
   const [filter, setFilter] = useState<string>();
+  const [page, setPage] = useState<number>(0);
+  const [rowsPerPage, setRowsPerPage] = useState<number>(10);
   const { showError } = useToast();
   const { data, refetch, isLoading } = useGetEvents({
+    $top: rowsPerPage,
+    $skip: page * rowsPerPage,
     $filter: filter
       ? `contains(title, '${filter}') or contains(description, '${filter}')`
       : undefined,
   });
 
-  const events = data?.data.data?.items;
+  const events = data?.data.data?.items ?? [];
+  const totalEvents = data?.data.data?.total ?? 0;
   const addEvent = (event: Event | null) => {
     setViewOnly(false);
     setSelectedEvent(event);
@@ -39,6 +44,7 @@ const EventManagerScreen = () => {
     () =>
       debounce((value: string) => {
         setFilter(value);
+        setPage(0);
       }, 500),
     [],
   );
@@ -98,11 +104,29 @@ const EventManagerScreen = () => {
         {isLoading ? (
           <LoadingSkeleton />
         ) : (
-          <List sx={{ width: "100%", bgcolor: "background.paper" }}>
-            {events?.map((event) => (
-              <EventListItem key={event.id} event={event} onClick={viewEvent} />
-            ))}
-          </List>
+          <>
+            <List sx={{ width: "100%", bgcolor: "background.paper" }}>
+              {events.map((event) => (
+                <EventListItem
+                  key={event.id}
+                  event={event}
+                  onClick={viewEvent}
+                />
+              ))}
+            </List>
+            <TablePagination
+              component="div"
+              count={totalEvents}
+              page={page}
+              onPageChange={(_, newPage) => setPage(newPage)}
+              rowsPerPage={rowsPerPage}
+              onRowsPerPageChange={(event) => {
+                setRowsPerPage(parseInt(event.target.value, 10));
+                setPage(0);
+              }}
+              rowsPerPageOptions={[5, 10, 25, 50]}
+            />
+          </>
         )}
       </div>
     </>
