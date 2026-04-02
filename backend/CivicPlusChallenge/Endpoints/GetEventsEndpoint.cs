@@ -22,10 +22,7 @@ namespace CivicPlusChallenge.Endpoints
 
                 if (!response.IsSuccess)
                 {
-                    if (!response.IsSuccess)
-                    {
-                        return Results.Json(response, statusCode: response.StatusCode > 0 ? response.StatusCode : StatusCodes.Status500InternalServerError);
-                    }
+                    return Results.Json(response, statusCode: response.StatusCode > 0 ? response.StatusCode : StatusCodes.Status500InternalServerError);
                 }
 
                 return Results.Ok(response);

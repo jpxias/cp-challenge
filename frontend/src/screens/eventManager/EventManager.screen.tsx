@@ -8,12 +8,14 @@ import { Event } from "../../models";
 import { useGetEvents } from "../../api/get-events-endpoint/get-events-endpoint";
 import debounce from "lodash/debounce";
 import LoadingSkeleton from "../../components/LoadingSkeleton/LoadingSekeleton.component";
+import { useToast } from "../../providers/toastProvider";
 
 const EventManagerScreen = () => {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
   const [viewOnly, setViewOnly] = useState<boolean>(false);
   const [filter, setFilter] = useState<string>();
+  const { showError } = useToast();
   const { data, refetch, isLoading } = useGetEvents({
     $filter: filter
       ? `contains(title, '${filter}') or contains(description, '${filter}')`
@@ -53,9 +55,13 @@ const EventManagerScreen = () => {
         open={modalOpen}
         event={selectedEvent}
         handleClose={() => setModalOpen(false)}
-        handleSubmit={() => {
-          setModalOpen(false);
-          refetch();
+        handleSubmit={(data) => {
+          if (data?.isSuccess) {
+            setModalOpen(false);
+            refetch();
+          } else {
+            showError(data?.error ?? "Something went wrong");
+          }
         }}
         viewOnly={viewOnly}
       />

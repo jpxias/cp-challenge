@@ -8,13 +8,13 @@ import {
   eventInitialValues,
   eventValidationSchema,
 } from "./CreateEventModal.schema";
-import { Event } from "../../models";
+import { Event, EventApiResponse } from "../../models";
 import { postEvents } from "../../api/create-event-endpoint/create-event-endpoint";
 
 interface ICreateEventModalProps {
   open: boolean;
   handleClose: () => void;
-  handleSubmit: (event: Event | undefined) => void;
+  handleSubmit: (event: EventApiResponse | undefined) => void;
   event: Event | null;
   viewOnly: boolean;
 }
@@ -38,7 +38,7 @@ const CreateEventModal = ({
       };
 
       const { data } = await postEvents(newEvent);
-      if (data.data) handleSubmit(data.data);
+      if (data) handleSubmit(data);
     },
   });
 

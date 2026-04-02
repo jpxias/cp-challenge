@@ -28,13 +28,13 @@ namespace CivicPlusChallenge.Endpoints
                 {
                     return Results.Json(response, statusCode: response.StatusCode > 0 ? response.StatusCode : StatusCodes.Status500InternalServerError);
                 }
+
+                return Results.Ok(response);
             }
             catch (Exception e)
             {
                 return Results.InternalServerError(new ApiResponse<Event>() { Error = e.Message });
             }
-
-            return Results.Ok();
         }
     }
 }
