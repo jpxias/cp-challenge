@@ -1,5 +1,6 @@
 using CivicPlusChallenge;
 using CivicPlusChallenge.Configuration;
+using CivicPlusChallenge.Endpoints.Extensions;
 using CivicPlusChallenge.Services;
 using Microsoft.Extensions.Caching.Memory;
 using Swashbuckle.AspNetCore.Swagger;

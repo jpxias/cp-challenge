@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace CivicPlusChallenge
+namespace CivicPlusChallenge.Endpoints.Extensions
 {
     public static class EndpointExtensions
     {

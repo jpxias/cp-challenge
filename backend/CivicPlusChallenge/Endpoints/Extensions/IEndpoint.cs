@@ -1,4 +1,4 @@
-﻿namespace CivicPlusChallenge
+﻿namespace CivicPlusChallenge.Endpoints.Extensions
 {
     public interface IEndpoint
     {

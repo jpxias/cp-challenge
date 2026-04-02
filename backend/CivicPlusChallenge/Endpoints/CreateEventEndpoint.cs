@@ -1,4 +1,5 @@
-﻿using CivicPlusChallenge.Models;
+﻿using CivicPlusChallenge.Endpoints.Extensions;
+using CivicPlusChallenge.Models;
 using CivicPlusChallenge.Services;
 
 namespace CivicPlusChallenge.Endpoints

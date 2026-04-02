@@ -16,9 +16,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
   </ItemGroup>
   <Target Name="SwaggerUpdates" AfterTargets="Build" Condition="'$(Configuration)' == 'Debug'">
-	  <Exec Command="dotnet tool run swagger tofile --output &quot;$(ProjectDir)swagger.json&quot; &quot;$(TargetPath)&quot; v1"
-	    EnvironmentVariables="SWAGGER_UPDATE=1"
-	    WorkingDirectory="$(ProjectDir)" />
+	  <Exec Command="dotnet tool run swagger tofile --output &quot;$(ProjectDir)swagger.json&quot; &quot;$(TargetPath)&quot; v1" EnvironmentVariables="SWAGGER_UPDATE=1" WorkingDirectory="$(ProjectDir)" />
 
 	  <Exec Command="powershell -Command &quot;(Get-Content '$(ProjectDir)swagger.json') -replace ', Version.*PublicKeyToken=null', ' ' | Set-Content '$(ProjectDir)..\..\frontend\swagger.json'&quot;" />	  
   </Target>
