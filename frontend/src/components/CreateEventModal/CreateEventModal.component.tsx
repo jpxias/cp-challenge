@@ -145,7 +145,7 @@ const CreateEventModal = ({
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               error={formik.touched.endDate && Boolean(formik.errors.endDate)}
-              helperText={formik.touched && formik.errors.endDate}
+              helperText={formik.touched.endDate && formik.errors.endDate}
               fullWidth
               slotProps={{ ...defaultSlotProps, inputLabel: { shrink: true } }}
             />
