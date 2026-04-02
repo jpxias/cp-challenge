@@ -20,9 +20,9 @@ namespace CivicPlusChallenge.Services
             _cache = cache;
         }
 
-        public async Task<AuthenticationResponse?> GetApiToken()
+        public async Task<AuthenticationResponse?> GetApiToken(bool forceRefresh = false)
         {
-            if (_cache.TryGetValue(TokenCacheKey, out AuthenticationResponse? cachedToken))
+            if (_cache.TryGetValue(TokenCacheKey, out AuthenticationResponse? cachedToken) && !forceRefresh)
             {
                 return cachedToken;
             }

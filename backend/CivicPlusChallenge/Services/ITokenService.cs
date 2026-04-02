@@ -4,6 +4,6 @@ namespace CivicPlusChallenge.Services
 {
     public interface ITokenService
     {
-        Task<AuthenticationResponse?> GetApiToken();
+        Task<AuthenticationResponse?> GetApiToken(bool forceRefresh = false);
     }
 }

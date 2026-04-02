@@ -16,8 +16,21 @@ namespace CivicPlusChallenge.Services
             var token = await _tokenService.GetApiToken();
 
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token?.Access_token);
+            var response = await base.SendAsync(request, cancellationToken);
 
-            return await base.SendAsync(request, cancellationToken);
+            if (response.StatusCode != System.Net.HttpStatusCode.OK)
+            {
+                var newToken = await _tokenService.GetApiToken(forceRefresh: true);
+
+                if (newToken != null)
+                {
+                    response.Dispose();
+                    request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", newToken.Access_token);
+                    response = await base.SendAsync(request, cancellationToken);
+                }
+            }
+
+            return response;
         }
     }
 }
