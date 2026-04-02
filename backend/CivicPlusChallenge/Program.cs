@@ -19,20 +19,18 @@ builder.Services.AddScoped<IMemoryCache, MemoryCache>();
 builder.Services.AddScoped<IApiClient, ApiClient>();
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+
 builder.Services.AddSwaggerGen();
 
-// Register the handler
 builder.Services.AddTransient<AuthenticationHandler>();
-
-// Register the HttpClient for the specific external API
 builder.Services.AddHttpClient("AuthenticatedHttpClient").AddHttpMessageHandler<AuthenticationHandler>();
 
 var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>();
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(policy => // No name needed
+    options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins(allowedOrigins)
+        policy.WithOrigins(allowedOrigins ?? [])
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -57,6 +55,9 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();
+if (!app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
 
 app.Run();

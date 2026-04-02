@@ -3,7 +3,7 @@ import { defineConfig } from "orval";
 export default defineConfig({
   civicPlus: {
     output: {
-      baseUrl: "https://localhost:7190",
+      baseUrl: "http://localhost:7190",
       mode: "tags-split",
       target: "src/api/models.ts",
       schemas: "src/models",
@@ -11,7 +11,7 @@ export default defineConfig({
       mock: false,
     },
     input: {
-      target: "../CivicPlusChallenge/swagger.json",
+      target: "../backend/CivicPlusChallenge/swagger.json",
     },
   },
 });

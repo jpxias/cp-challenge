@@ -9,7 +9,7 @@ export const eventInitialValues = {
 };
 
 export const eventValidationSchema = Yup.object({
-  title: Yup.string().required("Event name is required").max(50),
+  title: Yup.string().required("Event title is required").max(50),
   description: Yup.string().notRequired().max(300),
   startDate: Yup.date().required("Start date is required"),
   endDate: Yup.date()

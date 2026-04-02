@@ -20,7 +20,7 @@ const EventManagerScreen = () => {
   });
 
   const events = data?.data.data?.items;
-  const editEvent = (event: Event | null) => {
+  const addEvent = (event: Event | null) => {
     setViewOnly(false);
     setSelectedEvent(event);
     setModalOpen(true);
@@ -81,7 +81,7 @@ const EventManagerScreen = () => {
           />
           <Button
             variant="contained"
-            onClick={() => editEvent(null)}
+            onClick={() => addEvent(null)}
             style={{ margin: 20 }}
           >
             New event

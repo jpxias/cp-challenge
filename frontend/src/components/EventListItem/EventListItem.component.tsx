@@ -8,12 +8,12 @@ import {
 import { format } from "date-fns";
 import { Event } from "../../models";
 
-interface IEventListProps {
+interface IEventListItemProps {
   event: Event;
   onClick: (event: Event) => void;
 }
 
-const EventList = ({ event, onClick }: IEventListProps) => {
+const EventListItem = ({ event, onClick }: IEventListItemProps) => {
   const startDate = event.startDate
     ? format(new Date(event.startDate), "Pp")
     : "";
@@ -36,4 +36,4 @@ const EventList = ({ event, onClick }: IEventListProps) => {
   );
 };
 
-export default EventList;
+export default EventListItem;

@@ -52,7 +52,7 @@ export const getGetEventsUrl = (params?: GetEventsParams,) => {
 
   const stringifiedParams = normalizedParams.toString();
 
-  return stringifiedParams.length > 0 ? `https://localhost:7190/Events?${stringifiedParams}` : `https://localhost:7190/Events`
+  return stringifiedParams.length > 0 ? `http://localhost:7190/Events?${stringifiedParams}` : `http://localhost:7190/Events`
 }
 
 export const getEvents = async (params?: GetEventsParams, options?: RequestInit): Promise<getEventsResponse> => {
@@ -78,7 +78,7 @@ export const getEvents = async (params?: GetEventsParams, options?: RequestInit)
 
 export const getGetEventsQueryKey = (params?: GetEventsParams,) => {
     return [
-    `https://localhost:7190/Events`, ...(params ? [params] : [])
+    `http://localhost:7190/Events`, ...(params ? [params] : [])
     ] as const;
     }
 

@@ -3,6 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E40FE76-F1A9-4485-B61D-35EEE173AECC}|..\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallengetests\\services\\authenticationhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E40FE76-F1A9-4485-B61D-35EEE173AECC}|..\\CivicPlusChallengeTests\\CivicPlusChallenge.Tests.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallengetests\\services\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\services\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:services\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\endpointextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:endpointextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,24 +61,8 @@
       "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\services\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:services\\authenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5526224-7E74-AAF8-C714-BE6E4F748CD7}|CivicPlusChallenge.csproj|c:\\users\\joao\\documents\\projects\\cp-challenge\\backend\\civicpluschallenge\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,48 +116,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetEventResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\GetEventResponse.cs",
-              "RelativeDocumentMoniker": "Models\\GetEventResponse.cs",
-              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\GetEventResponse.cs",
-              "RelativeToolTip": "Models\\GetEventResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EventServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "RelativeToolTip": "..\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswFsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:43:02.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EndpointExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\EndpointExtensions.cs",
-              "RelativeDocumentMoniker": "EndpointExtensions.cs",
-              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\EndpointExtensions.cs",
-              "RelativeToolTip": "EndpointExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T19:35:16.485Z",
+              "WhenOpened": "2026-04-01T22:45:58.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Event.cs",
-              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\Event.cs",
-              "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\Services\\AuthenticationHandlerTests.cs",
+              "RelativeDocumentMoniker": "..\\CivicPlusChallengeTests\\Services\\AuthenticationHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallengeTests\\Services\\AuthenticationHandlerTests.cs",
+              "RelativeToolTip": "..\\CivicPlusChallengeTests\\Services\\AuthenticationHandlerTests.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:41:43.201Z"
+              "WhenOpened": "2026-04-01T22:45:23.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "EventService.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Services\\EventService.cs",
               "RelativeDocumentMoniker": "Services\\EventService.cs",
@@ -160,19 +159,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\ApiClient.cs",
               "RelativeDocumentMoniker": "ApiClient.cs",
               "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\ApiClient.cs",
               "RelativeToolTip": "ApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAEwEAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T14:23:50.854Z"
+              "WhenOpened": "2026-03-31T14:23:50.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "GetEventsEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Endpoints\\GetEventsEndpoint.cs",
               "RelativeDocumentMoniker": "Endpoints\\GetEventsEndpoint.cs",
@@ -184,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "CreateEventEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Endpoints\\CreateEventEndpoint.cs",
               "RelativeDocumentMoniker": "Endpoints\\CreateEventEndpoint.cs",
@@ -196,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CivicPlusChallenge.csproj",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\CivicPlusChallenge.csproj",
               "RelativeDocumentMoniker": "CivicPlusChallenge.csproj",
@@ -209,31 +209,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthenticationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Services\\AuthenticationHandler.cs",
-              "RelativeDocumentMoniker": "Services\\AuthenticationHandler.cs",
-              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Services\\AuthenticationHandler.cs",
-              "RelativeToolTip": "Services\\AuthenticationHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T15:43:41.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAjwB0AAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T12:41:35.573Z"
+              "WhenOpened": "2026-03-31T12:41:35.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-01T21:46:43.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T13:52:31.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Services\\AuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationHandler.cs",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Services\\AuthenticationHandler.cs",
+              "RelativeToolTip": "Services\\AuthenticationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T15:43:41.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:41:43.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EndpointExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\EndpointExtensions.cs",
+              "RelativeDocumentMoniker": "EndpointExtensions.cs",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\EndpointExtensions.cs",
+              "RelativeToolTip": "EndpointExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T19:35:16.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetEventResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\GetEventResponse.cs",
+              "RelativeDocumentMoniker": "Models\\GetEventResponse.cs",
+              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\GetEventResponse.cs",
+              "RelativeToolTip": "Models\\GetEventResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:43:02.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IEventService.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Services\\IEventService.cs",
               "RelativeDocumentMoniker": "Services\\IEventService.cs",
@@ -245,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\ApiResponse.cs",
               "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
@@ -257,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "EventServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\CivicPlusChallengeTests\\Services\\EventServiceTests.cs",
@@ -269,19 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-31T13:52:31.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
@@ -293,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ApiClientTests.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\ApiClientTests.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\CivicPlusChallengeTests\\ApiClientTests.cs",
@@ -305,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "TokenServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\Services\\TokenServiceTests.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\CivicPlusChallengeTests\\Services\\TokenServiceTests.cs",
@@ -317,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "MSTestSettings.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\source\\repos\\CivicPlusChallengeTests\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\CivicPlusChallengeTests\\MSTestSettings.cs",
@@ -329,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\IEndpoint.cs",
               "RelativeDocumentMoniker": "IEndpoint.cs",
@@ -341,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "SaveEventRequest.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\SaveEventRequest.cs",
               "RelativeDocumentMoniker": "Models\\SaveEventRequest.cs",
@@ -353,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "GetEventParameters.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Endpoints\\Parameters\\GetEventParameters.cs",
               "RelativeDocumentMoniker": "Endpoints\\Parameters\\GetEventParameters.cs",
@@ -365,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "AuthenticationRequest.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\AuthenticationRequest.cs",
               "RelativeDocumentMoniker": "Models\\AuthenticationRequest.cs",
@@ -377,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "AuthenticationResponse.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Models\\AuthenticationResponse.cs",
               "RelativeDocumentMoniker": "Models\\AuthenticationResponse.cs",
@@ -389,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\IApiClient.cs",
               "RelativeDocumentMoniker": "IApiClient.cs",
@@ -401,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "EventsApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\Joao\\Documents\\Projects\\cp-challenge\\backend\\CivicPlusChallenge\\Configurations\\EventsApiConfig.cs",
               "RelativeDocumentMoniker": "Configurations\\EventsApiConfig.cs",

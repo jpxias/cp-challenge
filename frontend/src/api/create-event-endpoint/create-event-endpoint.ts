@@ -40,7 +40,7 @@ export const getPostEventsUrl = () => {
 
 
 
-  return `https://localhost:7190/Events`
+  return `http://localhost:7190/Events`
 }
 
 export const postEvents = async (event: Event, options?: RequestInit): Promise<postEventsResponse> => {

@@ -68,7 +68,7 @@ const CreateEventModal = ({
     } else {
       formik.setValues(eventInitialValues);
     }
-  }, [event]);
+  }, [event, open]);
 
   return (
     <Modal open={open} onClose={handleClose} aria-labelledby="Create new event">
